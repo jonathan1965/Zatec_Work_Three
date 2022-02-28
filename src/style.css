@@ -324,13 +324,13 @@ a:hover {
 /* Section five */
 
 .section_five {
-    height: 170vh;
+    padding-b;
     background: rgba(220, 220, 220, 0.22);
 }
 
 .main_garelly {
     margin: 0px 230px;
-    padding-top: 100px;
+    padding:  100px 0px;
     text-align: center;
 }
 
