@@ -216,7 +216,6 @@ a:hover {
 
 /* section Three for partenrs*/
 .section_three {
-
     height: 170vh;
     background: rgba(220, 220, 220, 0.22);
 }
@@ -234,9 +233,6 @@ a:hover {
     height: auto;
 
 }
-
-
-
 
 .info_title {
 
@@ -272,10 +268,6 @@ a:hover {
 
 
 /* section four start */
-
-.section_four {
-
-}
 
 .process {
     display: grid;
@@ -324,7 +316,6 @@ a:hover {
 /* Section five */
 
 .section_five {
-    padding-b;
     background: rgba(220, 220, 220, 0.22);
 }
 
@@ -364,7 +355,101 @@ a:hover {
     grid-row-gap: 50px
 }
 
+
 /* section five end */
+
+
+/* Footer */
+footer {
+    height: 30vh;
+    background: #3A3A3A;
+}
+
+.wrapp_footer {
+    margin: 70px;
+    padding-top: 30px;
+}
+
+.footer_ft {
+ color: white;
+}
+
+.About_ft h2::before{
+    content: "";
+    display: block;
+    position: relative;
+    right: 10px;
+    top:23px;
+    background-color: #E49126;
+    width: 5px;
+    border-radius: 2px;
+    height: 30px;
+
+}
+
+.ft_icon {
+    margin-top: 17px;
+    display: grid;
+    grid-template-columns: repeat(3,80px);
+    row-gap: 10px;
+    text-align: center;
+}
+
+.ft_icon i{
+    padding: 15px;
+    background-color: #FFA026;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #F2F2F2; 
+
+}
+
+.zatec_footer  {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.About_ft p{
+    width: 70%;
+    padding-top: 20px;
+    line-height: 1.2rem;
+}
+
+.email {
+    margin-top: 17px;
+    display: grid;
+}
+
+.email input{
+    padding: 8px 25px;
+    border: none;
+    border-radius:5px ;
+    width: 60%;
+}
+
+.email input:focus{
+    outline: none;
+}
+
+.email button{
+    margin-top: 15px;
+    border-radius:3px ;
+    width: 25%;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    background-color:#E49126 ;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 700;
+}
+
+/* End Footer */
+   
+
+
+
 
 /* Media Queries */
 @media (max-width: 1600px) {
@@ -462,15 +547,15 @@ a:hover {
     }
 
     .garelly {
-        margin-top: 80px;
+        margin-top: 50px;
         justify-content: center;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-column-gap: 0px;
-        grid-row-gap: 50px
+        grid-row-gap: 30px
     }
 
     .garelly img{
-      max-width: 80%;
+      max-width: 95%;
     }
 }
 
@@ -605,6 +690,24 @@ a:hover {
 
     .process_content{
         margin-top: 20px;
+    }
+
+    .garelly {
+        margin-top: 50px;
+        justify-content: center;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 30px
+    }
+
+    .garelly img{
+      max-width: 100%;
+    }
+
+    .main_garelly {
+        margin: 0px 60px;
+        padding-top: 10px;
+        text-align: center;
     }
 }
 
